@@ -10,16 +10,16 @@ $quickGetUsers = quickGetUsers($tokenAuth->session->token);
 ###Add new user:
 
 $tokenAuth = quickAuth();
-$quickGetUsers = quickAddUsers($tokenAuth->session->token , 'username','user password','user email address');
+$quickAddUser = quickAddUsers($tokenAuth->session->token , 'username','user password','user email address');
 
 
 ###Get the All Dialogs:
 
 $tokenAuth = quickAuth();
-$quickGetUsers = quickGetDialog($tokenAuth->session->token);
+$quickGetetDialog = quickGetDialog($tokenAuth->session->token);
 
 
 ###Get the All Messages:
 
 $tokenAuth = quickAuth();
-$quickGetUsers = quickGetMessage($tokenAuth->session->token , $dialogId); // $dialogId you can get from the quickGetDialog() function
+$quickGetGetMessage = quickGetMessage($tokenAuth->session->token , $dialogId); // $dialogId you can get from the quickGetDialog() function
