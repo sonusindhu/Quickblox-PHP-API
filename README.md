@@ -4,6 +4,7 @@ Here is the PHP API for quickblox. Please follow the steps to get the records fr
 ###Get the All users:
 
 $tokenAuth = quickAuth();
+
 $quickGetUsers = quickGetUsers($tokenAuth->session->token);
 
 
