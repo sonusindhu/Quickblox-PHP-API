@@ -76,8 +76,6 @@ function quickGetUsers($token) {
             'QB-Token: ' . $token
         ));
         $response = curl_exec($curl);
-        pr(json_decode($response));
-        exit;
         if ($response) {
                 return json_decode($response);
         } else {
