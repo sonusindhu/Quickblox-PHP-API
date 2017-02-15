@@ -10,4 +10,5 @@ DEFINE('USER_PASSWORD', ""); // Your Password
 
 // Quickblox endpoints
 DEFINE('QB_API_ENDPOINT', "https://api.quickblox.com/"); // API Endpoints URL
+DEFINE('QB_PATH_SESSION', "session.json");
 ?>
